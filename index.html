@@ -1,14 +1,26 @@
 <!DOCTYPE html>
  <html>
  <head>
-  <title>Javascript</title>
-    <script src="script.js">
-   </script>
+  <title>一个小小的问题</title>
+    <script src="link.js">
+</script>
   </head>
   <body>
-    <h1>Click the button to have some fun.</h1>
-    <p id="demo">Click the button to change the font size and font color.</p>
-    <button onclick="sayHello()">Click me</button>
-    <button onclick="showTopic()">Press me</button>
-  </body>
+    <h1>一个小小的问题</h1>
+    <h2 style="background-color: white" onclick="changeText(this)">一个数若去掉前面的第一个数字是11，
+      去掉最后一个数字为50，原数是多少？</h2>
+    <p>点击按钮作答</p>
+    <button onclick="answerBox()">点我</button>
+    <button onclick="timeLimit()">提示: 点击此处并等待</button>
+
+</body>
+
+<style type="text/css">
+ body {
+    padding-left: 11em;
+   font-family: Georgia, "Times New Roman",
+           Times, serif;
+
+   color: purple;
+   background-color: pink }</style>
    </html>

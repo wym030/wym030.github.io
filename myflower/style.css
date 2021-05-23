@@ -24,6 +24,14 @@ font-size:normal;
 font-weight:bold;
 }
 
+.font3{
+  font-family:"SimSun";
+font-size:normal;
+font-weight:normal;
+}
+
+}
+
 
 /*--选择器--*/
 .font1{
@@ -68,8 +76,6 @@ font-size:100px;
    border-top: 1px solid #d5d5d5;
    width:75%;
  }
-
-
 
 
 /*--固定背景图--*/

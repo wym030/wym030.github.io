@@ -21,11 +21,11 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link font2" href="myhomepage.html">首页 <span class="sr-only">(current)</span></a>
+      <li class="nav-item ">
+        <a class="nav-link font2" href="homepage.html">首页 <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link font2" href="dicovery.html">发现</a>
+        <a class="nav-link font2" href="purchasepage.html.html">发现</a>
       </li>
       <li class="nav-item">
         <a class="nav-link font2" href="#">社区</a>
@@ -42,29 +42,74 @@
     </ul>
   </div>
   </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
-    <div class="container-fluid">
-     <div class="row text-center">
-       <div class="col-xs-12 col-sm-6 col-md-4">
-        <!-- <i class="fas fa-code"></i>-->
-        <img src="img/胶囊.jpg" width="80" height="80">
-         <h3>HTML 5</h3>
-         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-       </div>
-       <div class="col-xs-12 col-sm-6 col-md-4">
-        <!-- <i class="fas fa-bold"></i>-->
-        <img src="img/胶囊.jpg" width="80" height="80">
-         <h3>HTML 5</h3>
-         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-       </div>
-       <div class="col-sm-6 col-md-4">
-         <!--<i class="fab fa-css3"></i>-->
-         <img src="img/胶囊.jpg" width="80" height="80">
-         <h3>HTML 5</h3>
-         <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-       </div>
-     </div>
-     <hr class="my-4">
-    </div>
+  <!--两栏-->
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="list-group">
+        <img class="img-circle image-responsive " src="icon/U.png"  alt="userpictures">
+        <br>
+        <button type="button" class="btn btn-outline-secondary font2">上传头像</button>
+          <br>
+            <br>
+    <a href="#" class="list-group-item list-group-item-action active text-center font2" aria-current="true">
+      我的
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+       <a class="btn btn-primary font2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  个人资料
+  </a>
+  <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+  </div>
+</div>
+</a>
+    <a href="#" class="list-group-item list-group-item-action">
+      <a class="btn btn-primary font2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+   安全与隐私
+ </a>
+ <div class="collapse" id="collapseExample">
+ <div class="card card-body">
+   Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+ </div>
+ </div>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">
+      <a class="btn btn-primary font2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  浏览历史
+ </a>
+ <div class="collapse" id="collapseExample">
+ <div class="card card-body">
+   Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+ </div>
+</div>
+    </a>
+    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">
+      <a class="btn btn-primary font2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+   我的订单
+ </a>
+ <div class="collapse" id="collapseExample">
+ <div class="card card-body">
+   Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+ </div>
+</div>
+<br>
+<br>
+<br>
+    </a>
+  </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-9">
+          <img src="img/CFP.png" class="img-fluid">
+        </div>
+  </div>
+  </div>
   </body>
   </html>

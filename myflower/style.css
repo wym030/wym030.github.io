@@ -1,0 +1,90 @@
+html,body{
+  font-family:"simsun";
+  color:#003333;
+}
+
+/*--文字组--*/
+/*--字体--*/
+@font-face{
+  font-family: "DUO";
+  src:url("font/FZDBSJW.TTF");
+  font-size:normal;
+font-weight:normal;
+
+}
+.font1{
+  font-family: "DUO";
+font-size:normal;
+text-align: center;
+}
+
+.font2{
+  font-family:"SimHei SimSun";
+font-size:normal;
+font-weight:bold;
+}
+
+
+/*--选择器--*/
+.font1{
+  font-family: "DUO";
+font-size:100px;
+}
+
+.carousel img{
+  width:100%;
+  height:60%;
+}
+
+.btn-primary{
+  background-color: #6648b3;
+  border: 1px solid #6648b3;
+}
+
+.btn-primary:hover{
+  background-color: #6648b3;
+  border: 1px solid #6648b3;
+}
+ .fun{
+   width: 100%;
+   margin-bottom: 2rem;
+ }
+
+ .gif{
+   max-width: 100%;
+ }
+
+ .social{
+   font-size:4.5rem;
+ }
+
+ footer{
+   background-color: #3f3f3f;
+   color:#d5d5d5;
+   padding-top: 2rem;
+ }
+
+ .light{
+   border-top: 1px solid #d5d5d5;
+   width:75%;
+ }
+
+
+
+
+/*--固定背景图--*/
+figure{
+  position:relative;
+  width: 100%;
+  height:60%;
+  margin:1;
+}
+
+#fixed{
+  background-image:url('img/l1.png');
+  height:600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
